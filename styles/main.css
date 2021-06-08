@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bg-1: #282828;
+  --bg-2: #1b1b1b;
+  --font-color: #868686; 
+}
+
+body {
+  height: 100vh;
+  color: var(--font-color);
+}
+
+header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-1);
+}
+
+ul {
+  width: 100vw;
+  
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+main {
+  height: calc(100% - 50px);
+  box-sizing: border-box;
+  background-color: var(--bg-2);
+  display: flex;
+}
+
+#productionQueue {
+  border: 1px solid black;
+  width: 30%;
+}
+
+#currentRecipe {
+  border: 1px solid black;
+  width: 40%;
+}
+
+#recipeList {
+  border: 1px solid black;
+  width: 30%;
+}
